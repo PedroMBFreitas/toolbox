@@ -1,0 +1,36 @@
+nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 12.5%;
+}
+
+.colum {
+    display: inline-block;
+    vertical-align: top;
+    height: 75%;
+}
+
+section{
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    height: 75%;
+    padding: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+    background-color: limegreen;
+    text-align: center;
+    padding: 1rem;
+}
+
+body{
+    margin-bottom: 120px;
+}
+

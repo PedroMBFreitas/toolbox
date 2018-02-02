@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+}
+
+.flex-container{
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
+}
+
+.flex-item{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: blueviolet;
+    margin: 10px;
+
+    flex-shrink: 6px;
+    align-self: auto;
+
+}

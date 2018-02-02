@@ -1,0 +1,27 @@
+@media screen and (min-width:600px) {
+    nav {
+        float: left;
+        width: 25%;
+    }
+    section {
+        margin-left: 25%;
+        float: none;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 70px;
+        background-color: blue;
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:599px) {
+    nav li {
+        display: inline;
+    }
+}

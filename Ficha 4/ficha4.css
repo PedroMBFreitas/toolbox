@@ -1,0 +1,52 @@
+.container{
+    position: relative;
+}
+
+.container2{
+    position: relative;
+}
+
+.container3{
+    position: relative;
+}
+
+.rodapé{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navegar{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexItems{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+
+section{
+    margin-left: 200px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: lightblue;
+    width: 100%;
+}
+
+body{
+    margin-bottom: 120px;
+}
